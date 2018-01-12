@@ -1,0 +1,22 @@
+{
+    "query": {
+      "match": {
+        "name": {
+          "query": "ch",
+          "operator": "and"
+        }
+      }
+    },
+    "aggs": {
+      "avg_price": {
+        "avg": {
+          "field": "price"
+        }
+      },
+      "sum_price": {
+        "sum": {
+          "field": "price"
+        }
+      }
+    }
+  }
