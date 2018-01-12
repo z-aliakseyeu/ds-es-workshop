@@ -1,0 +1,19 @@
+version: '3'
+services:
+  
+  elasticsearch:
+    image: elasticsearch:5.5
+    container_name: es
+    environment:
+      - ES_JAVA_OPTS=-Xms128m -Xmx128m
+    ports:
+      - 9200:9200
+      - 9300:9300
+    volumes:
+      - ./elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+  
+  browser:
+    container_name: es_browser
+    image: mobz/elasticsearch-head:5
+    ports:
+      - 9100:9100

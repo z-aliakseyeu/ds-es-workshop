@@ -1,0 +1,17 @@
+{
+  "mappings": {
+        "item": { 
+            "properties": {
+                "name": {
+                    "type": "keyword"
+                },
+                "price": {
+                    "type": "integer"
+                },
+                "code": {
+                    "type": "keyword"
+                }
+            }
+        }
+    }
+}

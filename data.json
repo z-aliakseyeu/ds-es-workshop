@@ -1,0 +1,24 @@
+{ "create" : { "_index" : "receipt", "_type" : "item", "_id" : "1" } }
+{"name":"mintz cndy chery 115", "price": 34390}
+{ "create" : { "_index" : "receipt", "_type" : "item", "_id" : "2" } }
+{"name":"tango wfr vanila 76g", "price": 9790}
+{ "create" : { "_index" : "receipt", "_type" : "item", "_id" : "3" } }
+{"name":"good day avcdo/d 250", "price": 10500}
+{ "create" : { "_index" : "receipt", "_type" : "item", "_id" : "4" } }
+{"name":"mentos spearmint 35g", "price": 7400}
+{ "create" : { "_index" : "receipt", "_type" : "item", "_id" : "5" } }
+{"name":"chitato sapi pgg 68g", "price": 219090}
+{ "create" : { "_index" : "receipt", "_type" : "item", "_id" : "6" } }
+{"name":"aqua air mineral 330", "price": 19890}
+{ "create" : { "_index" : "receipt", "_type" : "item", "_id" : "7" } }
+{"name":"idm gula psr prm 1kg", "price": 17900}
+{ "create" : { "_index" : "receipt", "_type" : "item", "_id" : "8" } }
+{"name":"larutan cap kaki3 jeruk 320 ml", "code": "4510010789674", "price": 47390}
+{ "create" : { "_index" : "receipt", "_type" : "item", "_id" : "9" } }
+{"name":"you c 1000 lemon 140", "code": "8997009510017", "price": 24100}
+{ "create" : { "_index" : "receipt", "_type" : "item", "_id" : "10" } }
+{"name":"nice genuine facial 900gr", "code": "8992749612530", "price": 11700}
+{ "create" : { "_index" : "receipt", "_type" : "item", "_id" : "11" } }
+{"name":"mentos spearmint 70g", "price": 14400}
+{ "create" : { "_index" : "receipt", "_type" : "item", "_id" : "11" } }
+{"name":"chitato sapi pgg 120g", "price": 519999}

@@ -1,0 +1,39 @@
+{
+    "settings": {
+      "analysis": {
+        "analyzer": {
+          "n_gram_analyzer": {
+            "tokenizer": "n_gram_tokenizer"
+          }
+        },
+        "tokenizer": {
+          "n_gram_tokenizer": {
+            "type": "edge_ngram",
+            "min_gram": 2,
+            "max_gram": 10,
+            "token_chars": [
+              "letter",
+              "digit",
+              "symbol"
+            ]
+          }
+        }
+      }
+    },
+    "mappings": {
+        "item": { 
+            "properties": {
+                "name": {
+                    "type": "text",
+                    "analyzer": "n_gram_analyzer"
+                },
+                "price": {
+                    "type": "integer"
+                },
+                "code": {
+                    "type": "keyword"
+                }
+            }
+        }
+    }
+}
